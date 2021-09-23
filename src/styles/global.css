@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient {
+  background: linear-gradient(90deg, #5cf2e8 0%, #f54ea2 100%);
+}
+
+.shadow-text {
+  text-shadow: 1px 1px 0 #5cf2e8, -1px -1px 0 #f54ea2, -1px -1px 0 #5cf2e8, -1px 1px 0 #f54ea2;
+}
