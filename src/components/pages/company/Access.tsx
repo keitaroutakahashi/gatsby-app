@@ -11,7 +11,7 @@ const center = {
   lng: 139.77521,
 }
 
-const positionIwamotocho = {
+const position = {
   lat: 35.69587198435995,
   lng: 139.77533874603174,
 }
@@ -20,7 +20,7 @@ const Access = () => {
   return (
     <LoadScript googleMapsApiKey={process.env.GATSBY_GOOGLE_MAP_KEY}>
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={17}>
-        <Marker position={positionIwamotocho} />
+        <Marker position={position} />
       </GoogleMap>
     </LoadScript>
   )

@@ -10,7 +10,7 @@ const Root = () => {
       <Hero title="Company">
         <StaticImage
           src="../../../images/home/company.jpg"
-          className="w-full sp:h-28"
+          className="w-full sp:h-36"
           // imgClassName="w-full"
           width={400}
           quality={95}
