@@ -12,21 +12,15 @@ const Hero = () => {
 
   return (
     <div className="relative pt-32 text-center">
-      <div className="border-4 border-brand-primary transform -rotate-45"></div>
-      <div className="border-4 border-brand-secondary transform -rotate-45"></div>
+      <div className="flex justify-center items-center flex-col pc:w-4/5 transform -rotate-45">
+        <div className="w-full border-4 border-brand-primary "></div>
+        <div className="w-full border-4 border-brand-secondary "></div>
+      </div>
       <p className="relative shadow-text text-4xl">
         Lorem ipsum dolor
         <br />
         dolor sit amet, consectetur adipiscing
       </p>
-      {/* <StaticImage
-          src="../images/gatsby-astronaut.png"
-          width={300}
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
-          style={{ marginBottom: `1.45rem` }}
-        /> */}
       {/* <animated.div style={props}>フェイドインします</animated.div> */}
     </div>
   )

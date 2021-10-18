@@ -7,7 +7,7 @@ const Root = () => {
   return (
     <>
       <Hero />
-      <div className="pc:mt-80 sp:mt-60">
+      <div className="pc:mt-80 sp:mt-60 pc:max-w-5xl pc:mx-auto">
         <Section
           title="Company"
           subTitle="私たちについて"

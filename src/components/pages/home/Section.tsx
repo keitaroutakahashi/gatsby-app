@@ -19,7 +19,7 @@ const Section = ({ children, title, subTitle, description, isOdd }: Props) => {
           isOdd ? "" : "pc:flex-row-reverse"
         }`}
       >
-        <div className="pc:w-80">
+        <div className={`pc:w-80 ${isOdd ? "pc:mr-10" : "pc:ml-10"}`}>
           <Card>{children}</Card>
         </div>
         <div className="pc:flex-1 sp:mt-10">
