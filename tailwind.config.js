@@ -23,6 +23,7 @@ module.exports = {
       black: "#333",
       gray: {
         light: "#ccc",
+        dark: "#999",
       },
     },
   },

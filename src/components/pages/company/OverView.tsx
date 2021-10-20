@@ -26,7 +26,7 @@ const OverView = () => {
       {overviews.map(item => (
         <li
           key={item.title}
-          className="flex items-center first:mt-0 mt-8 pc:px-8 pb-2 border-b border-gray-light text-lg"
+          className="flex items-center first:mt-0 mt-8 pc:px-8 pb-2 border-b border-gray-light pc:text-lg"
         >
           <p className="pc:w-44 sp:w-32 font-bold">{item.title}</p>
           <div className="">

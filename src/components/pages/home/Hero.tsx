@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="w-full border-4 border-brand-primary "></div>
         <div className="w-full border-4 border-brand-secondary "></div>
       </div>
-      <p className="relative shadow-text text-4xl">
+      <p className="relative shadow-text text-4xl poppins">
         Lorem ipsum dolor
         <br />
         dolor sit amet, consectetur adipiscing

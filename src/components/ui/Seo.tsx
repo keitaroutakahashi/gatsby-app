@@ -12,8 +12,20 @@ const Seo = ({ title, description }: Props) => {
       htmlAttributes={{
         lang: "ja",
       }}
-      title={title}
-      titleTemplate={title ? `%s | ${title}` : null}
+      title="test company"
+      titleTemplate={title ? `${title} | %s ` : null}
+      link={[
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
+        {
+          rel: "preconnect",
+          href: "https://fonts.gstatic.com",
+          crossorigin: true,
+        },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap",
+        },
+      ]}
       meta={[
         {
           name: `description`,

@@ -9,3 +9,7 @@
 .shadow-text {
   text-shadow: 1px 1px 0 #5cf2e8, -1px -1px 0 #f54ea2, -1px -1px 0 #5cf2e8, -1px 1px 0 #f54ea2;
 }
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
