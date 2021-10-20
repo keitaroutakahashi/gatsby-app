@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 769px) {
+  .main { 
+    min-height: calc(100vh - 496px);
+  }
+}
+
 .gradient {
   background: linear-gradient(90deg, #5cf2e8 0%, #f54ea2 100%);
 }

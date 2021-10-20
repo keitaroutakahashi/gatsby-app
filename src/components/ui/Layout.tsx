@@ -10,7 +10,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Header />
-      <main className="pc:pt-20 sp:pt-16">{children}</main>
+      <main className="pc:pt-20 sp:pt-16 main">{children}</main>
       <Footer />
     </>
   )
