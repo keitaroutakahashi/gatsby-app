@@ -3,7 +3,7 @@ import * as React from "react"
 const MarketingIcon = () => (
   <svg
     viewBox="0 0 512 512"
-    className="pc:w-28 sp:w-16 fill-current text-brand-secondary"
+    className="pc:w-28 sp:w-16 mx-auto fill-current text-brand-secondary"
   >
     <g>
       <rect x="149.755" y="315.76" width="86.404" height="120.965"></rect>
