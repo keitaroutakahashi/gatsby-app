@@ -16,13 +16,13 @@ const Root = () => {
           quality={95}
           alt="Contact"
         />
-        <section className="pc:mt-32 sp:mt-20 text-black">
-          <SubTitle title="お問い合わせ" />
-          <div className="pc:mt-16 sp:mt-12">
-            <Contact />
-          </div>
-        </section>
       </Hero>
+      <section className="pc:mt-32 sp:mt-20 text-black">
+        <SubTitle title="お問い合わせ" />
+        <div className="pc:mt-16 sp:mt-12">
+          <Contact />
+        </div>
+      </section>
     </>
   )
 }
