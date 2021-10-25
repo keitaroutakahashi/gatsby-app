@@ -23,7 +23,6 @@ const Root = () => {
           <StaticImage
             src="../../../images/home/company.jpg"
             className="w-full"
-            width={500}
             quality={95}
             alt="Company"
           />
