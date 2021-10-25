@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false)
@@ -12,22 +13,33 @@ const Header = () => {
     <header className="fixed z-10 flex justify-between items-center w-full pc:h-20 sp:h-16 pc:px-8 sp:px-2">
       <h1>
         <Link to="/" className="pc:text-2xl text-black font-bold poppins">
-          Test Company
+          <StaticImage
+            src="https://placehold.jp/200x64.png"
+            className="w-full sp:h-16"
+            width={200}
+            quality={95}
+            alt="Service"
+          />
         </Link>
       </h1>
       <nav>
         <ul className="sp:hidden flex items-center text-lg text-black">
-          <li className="ml-5">
+          <li>
             <Link to="/company" className="font-bold poppins">
               Company
             </Link>
           </li>
-          <li className="ml-5">
+          <li className="ml-8">
             <Link to="/service" className="font-bold poppins">
               Service
             </Link>
           </li>
-          <li className="ml-5">
+          <li className="ml-8">
+            <Link to="/career" className="font-bold poppins">
+              Career
+            </Link>
+          </li>
+          <li className="ml-8">
             <Link to="/contact" className="font-bold poppins">
               Contact
             </Link>
@@ -49,17 +61,22 @@ const Header = () => {
               </button>
             </div>
             <ul className="mt-8 text-lg text-center text-black">
-              <li className="ml-5">
+              <li>
                 <Link to="/company" className="font-bold border-b-2 poppins">
                   Company
                 </Link>
               </li>
-              <li className="ml-5 mt-6">
+              <li className="mt-10">
                 <Link to="/service" className="font-bold border-b-2 poppins">
                   Service
                 </Link>
               </li>
-              <li className="ml-5 mt-6">
+              <li className="mt-10">
+                <Link to="/career" className="font-bold border-b-2 poppins">
+                  Career
+                </Link>
+              </li>
+              <li className="mt-10">
                 <Link to="/contact" className="font-bold border-b-2 poppins">
                   Contact
                 </Link>

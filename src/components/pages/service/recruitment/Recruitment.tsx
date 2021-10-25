@@ -2,7 +2,7 @@ import * as React from "react"
 
 const Recruitment = () => {
   return (
-    <ol className="pc:grid pc:grid-cols-2 pc:gap-16">
+    <ol className="pc:grid pc:grid-cols-2 pc:gap-16 pc:gap-y-32">
       <li>
         <p className="text-xl text-center text-brand-secondary font-bold poppins">
           01
