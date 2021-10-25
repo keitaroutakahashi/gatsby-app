@@ -9,9 +9,8 @@ const Root = () => {
     <>
       <Hero title="Contact">
         <StaticImage
-          src="../../../images/home/company.jpg"
+          src="../../../images/home/contact.jpg"
           className="w-full sp:h-36"
-          // imgClassName="w-full"
           width={400}
           quality={95}
           alt="Contact"

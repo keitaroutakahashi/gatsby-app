@@ -23,10 +23,9 @@ const Root = () => {
           <StaticImage
             src="../../../images/home/company.jpg"
             className="w-full"
-            // imgClassName="w-full"
             width={500}
             quality={95}
-            alt="A Gatsby astronaut"
+            alt="Company"
           />
         </Section>
         <Section
@@ -42,9 +41,45 @@ const Root = () => {
           isOdd={false}
         >
           <StaticImage
-            src="../../../images/home/company.jpg"
+            src="../../../images/home/service.jpg"
             quality={95}
-            alt="A Gatsby astronaut"
+            alt="Service"
+          />
+        </Section>
+        <Section
+          title="Career"
+          subTitle="キャリア"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          isOdd
+        >
+          <StaticImage
+            src="../../../images/home/career.jpg"
+            quality={95}
+            alt="Career"
+          />
+        </Section>
+        <Section
+          title="Contact"
+          subTitle="お問い合わせ"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          isOdd={false}
+        >
+          <StaticImage
+            src="../../../images/home/contact.jpg"
+            quality={95}
+            alt="Contact"
           />
         </Section>
       </div>

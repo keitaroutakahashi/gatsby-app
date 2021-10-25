@@ -12,9 +12,8 @@ const Root = () => {
     <>
       <Hero title="Service">
         <StaticImage
-          src="../../../images/home/company.jpg"
+          src="../../../images/home/service.jpg"
           className="w-full sp:h-36"
-          // imgClassName="w-full"
           width={400}
           quality={95}
           alt="Service"

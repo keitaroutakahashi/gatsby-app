@@ -14,8 +14,8 @@ const Header = () => {
       <h1>
         <Link to="/" className="pc:text-2xl text-black font-bold poppins">
           <StaticImage
-            src="https://placehold.jp/200x64.png"
-            className="w-full sp:h-16"
+            src="https://placehold.jp/200x48.png"
+            className="w-full sp:h-12"
             width={200}
             quality={95}
             alt="Service"
