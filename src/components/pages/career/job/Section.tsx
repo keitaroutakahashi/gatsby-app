@@ -18,7 +18,7 @@ const Section: React.VFC<Props> = ({ data }) => {
   return (
     <div className="first:mt-0 pc:mt-14 sp:mt-10">
       <div
-        className="flex justify-between pb-2 border-b border-gray-dark cursor-pointer"
+        className="flex justify-between items-center pb-2 border-b border-gray-dark cursor-pointer"
         onClick={handleToggleFirst}
       >
         <div className="">
