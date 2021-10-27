@@ -45,7 +45,7 @@ const Seo = ({ title, description }: Props) => {
         },
         {
           property: `og:image`,
-          content: `${process.env.GATSBY_BASE_URL}/static/ogp.png`,
+          content: `${process.env.GATSBY_BASE_URL}/ogp.png`,
         },
         {
           name: `twitter:card`,
