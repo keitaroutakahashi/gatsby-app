@@ -25,7 +25,7 @@ const Section: React.VFC<Props> = ({ data }) => {
           <p className="pc:text-sm sp:text-xs font-bold">{data.title}</p>
           <p className="mt-1 pc:text-3xl sp:text-2xl poppins">{data.titleEn}</p>
         </div>
-        {isFirstOpen ? <MinusIcon /> : <PlusIcon />}
+        <div>{isFirstOpen ? <MinusIcon /> : <PlusIcon />}</div>
       </div>
       <ul className="">
         {data.contents.map(content => (
