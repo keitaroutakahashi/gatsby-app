@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import Logo from "./Logo"
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false)
@@ -13,13 +13,7 @@ const Header = () => {
     <header className="fixed z-10 flex justify-between items-center w-full pc:h-20 sp:h-16 pc:px-8 sp:px-2">
       <h1>
         <Link to="/" className="pc:text-2xl text-black font-bold poppins">
-          <StaticImage
-            src="https://placehold.jp/200x48.png"
-            className="w-full sp:h-12"
-            width={200}
-            quality={95}
-            alt="Service"
-          />
+          <Logo />
         </Link>
       </h1>
       <nav>
