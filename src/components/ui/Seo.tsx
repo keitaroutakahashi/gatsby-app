@@ -13,7 +13,7 @@ const Seo = ({ title, description }: Props) => {
         lang: "ja",
       }}
       title="test company"
-      titleTemplate={title ? `${title} | %s ` : null}
+      titleTemplate={title}
       link={[
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {

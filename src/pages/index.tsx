@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <Layout>
       <>
-        <Seo title="" description="test" />
+        <Seo title="test company" description="test" />
         <Root />
       </>
     </Layout>

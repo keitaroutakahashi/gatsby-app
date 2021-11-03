@@ -7,7 +7,7 @@ const ServicePage = () => {
   return (
     <Layout>
       <>
-        <Seo title="Service" description="" />
+        <Seo title="Service | test company" description="" />
         <Root />
       </>
     </Layout>
