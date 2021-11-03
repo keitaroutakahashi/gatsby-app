@@ -56,6 +56,10 @@ const Seo = ({ title, description }: Props) => {
           content: title,
         },
         {
+          name: `twitter:image`,
+          content: `${process.env.GATSBY_BASE_URL}/ogp.png`,
+        },
+        {
           name: `twitter:description`,
           content: description,
         },
